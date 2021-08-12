@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+data/
+
+# Logs webdriver
+*.log
+
+# Config
+private_conf.py
+
+# Fuse
+.fuse_hidden*
