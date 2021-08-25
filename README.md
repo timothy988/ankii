@@ -35,7 +35,7 @@ If you want [@ankigen_bot](https://t.me/ankitimothybot) to support another langu
 
 
 ## Automatic Installation
-For executing this code
+For using this bot
 
 + Run this script in a terminal
 ```bash
