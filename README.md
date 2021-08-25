@@ -44,8 +44,8 @@ chmod u+x botinstall.sh
 cd ankii
 python3 src/ankigen_bot.py
 ```
+---
 
-+ If it doesn not work just use the Manual Installation
 ## Manual Installation
 For executing this code, you will need to have:
 
