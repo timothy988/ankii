@@ -56,14 +56,14 @@ sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
 + Create a file called `private_conf.py` with a variable `token_id` initialized to the toked_id of your telegram bot. You also have to create in the root directory two folders called `data` and `log`. In commands:
 ```
 gh repo clone timothy988/ankii
-cd ankii
+cd ankii/src
 mkdir data log
-echo "token_id = '<your_bot_token_id>'" > ./src/private_config.py
+echo "token_id = '<your_bot_token_id>'" > private_config.py
 ```
 
 + Chrome (or Chromium). Add a variable in `src/private_config.py` called `chrome_binary_location` and add the path so it points to where your Chrome/Chromium binary file is. For example
 ```
-echo "chrome_binary_location='/usr/bin/google-chrome'" >> ./src/private_config.py
+echo "chrome_binary_location='/usr/bin/google-chrome'" >> private_config.py
 ```
 
 Once everything is installed you can run the bot from the root directory:
