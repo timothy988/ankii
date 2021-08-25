@@ -35,7 +35,8 @@ If you want [@ankigen_bot](https://t.me/ankitimothybot) to support another langu
 
 
 ## Automatic Installation
-For execusting this software, just run this script below
+For executing this code
+
 + Run this script in a terminal
 ```bash
 wget https://raw.githubusercontent.com/timothy988/ankii/main/botinstall.sh
