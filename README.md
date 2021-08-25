@@ -35,7 +35,7 @@ If you want [@ankigen_bot](https://t.me/ankitimothybot) to support another langu
 
 
 ## Automatic Installation
-For using this bot
+Bot Setup
 
 + Run this script in a terminal
 ```bash
@@ -43,6 +43,11 @@ wget https://raw.githubusercontent.com/timothy988/ankii/main/botinstall.sh
 chmod u+x botinstall.sh
 ./botinstall.sh
 cd ankii
+
+```
++ For executing this bot, run (ankii/src)
+
+```
 python3 src/ankigen_bot.py
 ```
 ---
