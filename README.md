@@ -41,7 +41,8 @@ For execusting this software, just run this script below
 wget https://raw.githubusercontent.com/timothy988/ankii/main/botinstall.sh
 chmod u+x botinstall.sh
 ./botinstall.sh
-
+cd ankii
+python3 src/ankigen_bot.py
 ```
 
 + If it doesn not work just use the Manual Installation
