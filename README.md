@@ -58,7 +58,7 @@ sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
 gh repo clone timothy988/ankii
 cd ankii/src
 mkdir data log
-echo "token_id = '<your_bot_token_id>'" > private_config.py
+echo "token_id = '<your_bot_token_id>'" > private_conf.py
 ```
 
 + Chrome (or Chromium). Add a variable in `src/private_config.py` called `chrome_binary_location` and add the path so it points to where your Chrome/Chromium binary file is. For example
