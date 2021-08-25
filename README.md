@@ -31,7 +31,21 @@ If you want [@ankigen_bot](https://t.me/ankitimothybot) to support another langu
 <img src="https://github.com/timothy988/ankii/blob/main/.assets/image4.jpg" width="450">
 
 ---
-## Installation
+
+
+
+## Automatic Installation
+For execusting this software, just run this script below
++ Run this script in a terminal
+```bash
+wget https://raw.githubusercontent.com/timothy988/ankii/main/botinstall.sh
+chmod u+x botinstall.sh
+./botinstall.sh
+
+```
+
++ If it doesn not work just use the Manual Installation
+## Manual Installation
 For executing this code, you will need to have:
 
 + The following python libraries: sqlite3, selenium, the telegram-bot libraries and pronouncing. For instance, with pip it would be
