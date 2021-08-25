@@ -56,7 +56,7 @@ sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
 + Create a file called `private_conf.py` with a variable `token_id` initialized to the toked_id of your telegram bot. You also have to create in the root directory two folders called `data` and `log`. In commands:
 ```
 gh repo clone timothy988/ankii
-cd ankigenbot
+cd ankii
 mkdir data log
 echo "token_id = '<your_bot_token_id>'" > ./src/private_conf.py
 ```
