@@ -14,6 +14,7 @@ sudo mv -f chromedriver /usr/local/share/chromedriver
 sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
 sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
 echo ""
+rm -r chromedriver_linux64.zip
 
 echo "Now let's install trans worto"
 git clone git@github.com:soimort/translate-shell.git
